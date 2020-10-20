@@ -1,0 +1,39 @@
+.list {
+    width: 90px;
+    background-color: rgb(165, 201, 206);
+    margin-left: 10px;
+    border: solid black;
+}
+h1{
+   height: 40px;
+    background-image:url(img/kosmos.jpg);
+    color: white;
+    text-align: center;
+}
+.importantWorlds{
+    font-weight: bolder;
+    background-color: rgb(173, 170, 173);
+}
+h2{
+    font-weight: 200;
+    text-decoration:underline;
+}
+#scroll{
+    width: 500px;
+    height: 100px;
+    overflow: auto;
+}
+hr{background-color: tomato;
+height: 3px;
+}
+a{
+    color: tomato;
+    
+}
+div{
+    
+    opacity: none !important;
+}
+body{
+     background-image:url(img/background2.jpg);
+}
