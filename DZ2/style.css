@@ -1,0 +1,51 @@
+.NameDishes {
+  width: 300px;
+  margin: 10px 10px;
+  font-size: 25px;
+  text-align: center;
+  border: 10px double rgba(255, 187, 0, 0.842);
+}
+h1 {
+  text-align: center;
+  color: gold;
+  background-color: green;
+  border: 5px solid black;
+}
+.title {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.cooking {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: green;
+}
+
+#horisontalLine {
+  height: 5px;
+  font-size: 40px;
+  background-color: greenyellow;
+}
+
+.zzz {
+  background-color: red;
+}
+
+li {
+  width: 400px;
+  padding: 10px;
+  margin-top: 15px;
+  text-align: center;
+  background-color: rgb(238, 215, 12);
+}
+div {
+  width: 300px;
+  height: 100px;
+  overflow: auto;
+}
+
+li {
+  background-color: green;
+}
+

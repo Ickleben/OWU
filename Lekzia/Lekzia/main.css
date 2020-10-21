@@ -1,0 +1,56 @@
+p {
+    background: cornflowerblue;
+}
+
+li {
+    background: gray;
+    margin-bottom: 3px;
+}
+
+.xxx {
+    color: red;
+
+}
+
+.yyy {
+    font-size: 25px;
+}
+
+
+#target {
+    font-weight: bolder;
+}
+
+#target {
+    background: red;
+}
+
+p {
+    background: silver;
+}*/
+
+p {
+    width: 400px;
+    /*height: 100px;*/
+    overflow: hidden;
+}
+
+span {
+    color: red;
+    font-size: 40px;
+}
+
+.xxx {
+    /*margin: 10px 20px 30px 40px;*/
+    margin-top: 10px;
+    padding: 10px;
+    border: 10px solid red;
+    box-sizing: border-box;
+
+}
+
+
+h1 {
+    text-align: center;
+}
+
