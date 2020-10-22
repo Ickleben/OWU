@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+}
+@font-face {
+    font-family: Bagerich;
+    src: url(type/Bagerich.ttf);}
+.body1{    
+    height: 200px;
+    display: flex;
+    /* background-color: violet; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.center{
+    height: 70%;
+    width: 100%;
+background-color:maroon;
+}
+.header{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+   font-size: x-small ;
+    margin: 0 10px 0;
+    height: 10%;
+}
+.bottom{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: small;
+    height: 20%;
+    margin: 0 10px ;
+}
+.textColor{
+    color: maroon;
+}
+.center1{
+    display: flex;
+    padding: 12px 0;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+    
+}
+.center12{
+    display: flex;
+    flex-direction: column;
+    margin: 0 300px;
+    
+}
+.center121{
+    height: 55%;
+    font-size: x-large;
+    
+}
+.center11,.center13,.center122{
+    font-family: 'Oswald', sans-serif;
+}
+h2{
+    font-family: 'Bagerich';
+    text-align: center;
+}
+.center122{
+    text-align: center;
+    font-size: small;
+}
+.center11{
+    margin: 0 20px;
+    align-self: center;
+}
+.center132{
+    height: 80%;
+    padding: 5px;
+    background-color: firebrick;
+border: solid white;
+border-radius: 5px ;
+}
+.center13{
+    height: 20%;
+    width: 10%;
+    margin: 0 20px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.center131{
+    margin-right: 15px;
+    padding: 5px;
+}
