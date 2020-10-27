@@ -1,4 +1,4 @@
-// - присвоить каждому из следующих значений свою переменную: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false
+ // - присвоить каждому из следующих значений свою переменную: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false
 // Вывести каждую при помощи console.log , alert, document.write
 // let name= 'hello';
 // let owu = 'owu';
@@ -190,3 +190,98 @@
 // console.log(fifth);
 // console.log(first3);
 // console.log(second3);
+
+// Дополнительно:
+//     - Посмотрев на следюующие выражения, скажите, каков будет вывод в консоль
+
+// console.log(132 > 100 && 45 < 12 ); false
+// console.log(34 > 33 && 23 < 90 ); true
+// console.log(99 > 100 && 45 > 12 ); false
+// console.log(132 > 100 || 45 < 12 );true
+// console.log(111 > 11 || 45 < 111 );true
+// console.log((111 > 11 || 45 < 111) && (132 > 100 || 45 < 12) );true
+// console.log((111 > 11 || 45 < 56) || (132 > 100 || 45 < 12) );true
+// console.log((132 > 100 && 45 < 12 ) && (132 > 100 || 45 < 12 ) );false
+// console.log((111 > 11 || 45 < 111) || (99 > 100 && 45 > 12 ));true
+// console.log(!!'-1');true
+// console.log(!!-1);true
+// console.log(!!'0');true
+// console.log(!!'null');true
+// console.log(!!'undefined');true
+
+// 1. Три різних числа вводяться через prompt().
+    // За допомоги if else вивести іх в порядку зростання. (відсортувати по зростанню)
+// let x = +prompt('Перше число');
+// let y = +prompt('Друге число');
+// let z = +prompt('Третє число');
+//
+// if ( x<=y<z )
+// {document.write(x);
+//     document.write(y)
+//     document.write(z)
+// }else if (x<=z<=y){
+//     document.write(x);
+//     document.write(z)
+//     document.write(y)
+
+// }else if (y<=x<=z){
+//     document.write(y,x,z)
+// } else if (y<z<x){
+//     document.write(y<z<x);
+// }else if (z<x<y){
+//     document.write(z,x,y);
+// }else if (z<y<x){
+//     document.write(z,y,x);
+// }
+//WRONG
+//  2.
+ // Все параматры получаем с клавиатуры!!!!
+ //     Имитируем поведение пешехода на перекстке.
+ //     Если светофор зеленый - вывести "иди".
+ //     Если светофор желтый - вывести "подожди".
+ //     Если светофор красный - вывести "стой".
+ //     Если светофор в аварийном режиме вывести "делай что хочешь"!
+//
+//  let color = prompt('Який колір світлофора');
+//
+// if (color=='green'){
+//     document.write('иди');
+// }else if (color=='yellow'){
+//     document.write('подожди');
+// }else if (color=='red'){
+//     document.write('стой')
+// }else {
+//     document.write('делай что хочешь')
+// }
+//  3
+//  Все параметры получаем с клавиатуры!!!!(prompt , confirm)
+//  Создать переменную isRoadClear которая характеризирует наличие на дороге машин.
+//      Улучшаем предыдущее задание.
+//      Если светофор зеленый и машин нет - вывести "иди".
+//      Если светофор зеленый и машины есть  - вывести подожди пока нарушители проедут".
+//  Если светофор желтый и машины есть - вывести "жди".
+//      Если светофор желтый и машин нет - вывести "все рано жди".
+//      Если светофор красный и машин нет- вывести "стой все рано".
+//      Если светофор красный - и машины есть вывести "стой и жди".
+//      Если светофор в аварийном режиме вывести "делай что хочешь"!
+//  let color = prompt('Який колір світлофора ENG');
+// let isRoadClear = confirm('Є машини на дорозі?')
+//
+//  if (color=='green'&&isRoadClear==false){
+//      document.write('иди');
+//  }else if (color=='green'&&isRoadClear==true){
+//      document.write('подожди пока нарушители проедут');
+//  } else if (color=='yellow'&&isRoadClear==true){
+//      document.write('жди');
+//  }else if (color=='yellow'&&isRoadClear==false){
+//      document.write('все рано жди');
+//  } else if (color=='red'&&isRoadClear==false){
+//      document.write('стой все рано')
+//  }else if (color=='red'&&isRoadClear==true) {
+//      document.write('стой и жди')
+//  }
+//  else if (color=='eror'){
+//      document.write('делай что хочешь')
+//  }else {alert('Не вірно вказано колір')
+//  }
+// GOOD
