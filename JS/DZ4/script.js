@@ -152,3 +152,114 @@
 //
 // }
 // arg('hahahha','div')
+// - приймає масив автомобілів (можна взяти з попередніх дз ),та  індентифікатор елемнту в який потрібно додати список цих автомобілів.
+//
+// let div=document.getElementById('divka')
+//
+// function car(one){
+//
+//     div.innerText=one
+//     document.body.appendChild(div)
+//
+// }
+// car(['Volkswagen','BMW','Vaz','Kia','Audi'])
+// Для кожного автомобіля створити свій блок, та додати його в елемент, індентифікатор якого ви отримали. Всі властивості авто в обному блоці
+//
+// const car= [
+//     {model:'Volkswagen',year:'1989',power:'90лс',color:'black'},
+//     {model:'BMW',year:'1999',power:'190лс',color:'gray'},
+//     {model:'Hyndai',year:'2001',power:'130лс',color:'red'},
+//     {model:'Kia',year:'2007',power:'150лс',color:'white'},
+//     {model:'Vaz',year:'1981',power:'53лс',color:'gold'},
+//     {model:'Mercedes-Benz',year:'2017',power:'600лс',color:'purple'},
+//     {model:'Audi',year:'2010',power:'300лс',color:'beige'},
+//     {model:'Ford',year:'1960',power:'312лс',color:'blue'},
+//     {model:'Zaz',year:'2007',power:'60лс',color:'yellow'},
+//     {model:'Acura',year:'2005',power:'250лс',color:'green'},
+//     ]
+// function carsBlock(one){
+//     let div=document.getElementById('divka')
+//     for (let i=0;i<one.length;i++) {
+//
+//          let di=document.createElement('div')
+//          di.innerText=car[i].model +'  '+ car[i].year +'  '+ car[i].power +'   '+ car[i].color
+//         di.style.margin = '20px'
+//         div.appendChild(di)
+//     }
+//
+// }
+// carsBlock( car)
+// - приймає масив автомобілів (можна взяти з попередніх дз ),та  індентифікатор елемнту в який потрібно додати список цих автомобілів.
+//     Для кожного автомобіля створити свій блок, та додати його в елемент, індентифікатор якого ви отримали.
+//     Для кожної властивості створити всередені блока автомоблія свій блок
+//
+// const car= [
+//     {model:'Volkswagen',year:'1989',power:'90лс',color:'black'},
+//     {model:'BMW',year:'1999',power:'190лс',color:'gray'},
+//     {model:'Hyndai',year:'2001',power:'130лс',color:'red'},
+//     {model:'Kia',year:'2007',power:'150лс',color:'white'},
+//     {model:'Vaz',year:'1981',power:'53лс',color:'gold'},
+//     {model:'Mercedes-Benz',year:'2017',power:'600лс',color:'purple'},
+//     {model:'Audi',year:'2010',power:'300лс',color:'beige'},
+//     {model:'Ford',year:'1960',power:'312лс',color:'blue'},
+//     {model:'Zaz',year:'2007',power:'60лс',color:'yellow'},
+//     {model:'Acura',year:'2005',power:'250лс',color:'green'},
+//     ]
+// function carsBlock(one){
+//     let div=document.getElementById('divka')
+//     for (let i=0;i<one.length;i++) {
+//          let auto=document.createElement('div')
+//
+//             let di1=document.createElement('div')
+//             let di2=document.createElement('div')
+//             let di3=document.createElement('div')
+//             let di4=document.createElement('div')
+//             di1.innerText= one[i].model
+//             di2.innerText= one[i].year
+//             di3.innerText= one[i].power
+//             di4.innerText= one[i].color
+//             auto.appendChild(di1)
+//             auto.appendChild(di2)
+//             auto.appendChild(di3)
+//             auto.appendChild(di4)
+//         auto.style.margin = '20px'
+//         div.appendChild(auto)
+//     }
+//
+// }
+// carsBlock( car)
+// - *** створити функцію яка буде переносити елементи з значенням 0 у кінець маисву. Зберігаючи при цьому порядок не нульових значень.
+//     Двожина масиву від 2 до 100
+// let arr=[1,0,6,0,3,0,5,1,0,2,0,0,0,0,2,1,3,4,5,0]
+// function sort(one){
+//     let result =[]
+//     for (let i=(one.length-1);i>=0;i=i-1){
+//
+//         if (one[i]===0){
+//             result.push(one[i])
+//
+//
+//         }else {
+//             result.unshift(one[i])
+//         }
+//
+//     }
+// return result
+//
+// }
+//
+// console.log(sort(arr));
+// *** приймає масив та число "i", та міняє місцями об`єкт який знаходиться в індексі "i" на "i+1"
+// let arr=['1','2','3','4']
+// function res(one,two){
+//     for (i=0;i<4;i++){
+//
+//         `${one.splice(i+1, 1,i+2 )}` не вірно
+//
+//
+//
+//     }
+//     return one
+// }
+//
+// console.log(res(arr, 1));
