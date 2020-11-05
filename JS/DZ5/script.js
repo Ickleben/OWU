@@ -135,12 +135,13 @@
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і доавляет його в поточний об'єкт car
 // ==============================================
-function Tag(model, company, year, maxSpeed, vEngine) {
+function Tag(model, company, year, maxSpeed, vEngine,driver) {
     this.model = model;
     this.company = company;
     this.year = year;
     this.maxSpeed = maxSpeed;
     this.vEngine = vEngine;
+    this.driver=driver
     this.drive = function () {
         console.log('їдемо зі швидкістю ' + this.maxSpeed + 'км на годину')
     }
@@ -156,9 +157,12 @@ function Tag(model, company, year, maxSpeed, vEngine) {
     this.newYear = function (newValue) {
         this.year = newValue;
     }
-    this.addDriver = function () {
+    this.addDriver = function (driver) {
+this.driver=driver
 
     }
+
+
 }
 
 let m5 = new Tag('m5', 'BMW', '2000', 200, '2.4 l.', 2020,)
@@ -167,7 +171,7 @@ let m5 = new Tag('m5', 'BMW', '2000', 200, '2.4 l.', 2020,)
 m5.drive()
 m5.info()
 m5.newSpeed()
-m5.newYear()
-m5.addDriver()
+m5.newYear(2020)
+m5.addDriver({name: 'Andrii', age: 20})
 console.log(m5)
 
