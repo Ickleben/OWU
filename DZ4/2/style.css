@@ -1,0 +1,220 @@
+body {
+  max-width: 1600px;
+  margin: 0px;
+}
+@font-face {
+  font-family: Bagerich;
+  src: url(type/Bagerich.ttf);
+}
+.head {
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.hhead {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.menucent {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.bott {
+  display: flex;
+
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.center {
+  height: 70%;
+  width: 100%;
+  background-color: #800000;
+  margin: 10px 0;
+}
+.header {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: x-small;
+  margin: 20px 10px 0;
+  height: 10%;
+}
+.bottom {
+  font-family: "Oswald", sans-serif;
+  font-weight: bolder;
+  font-size: small;
+  height: 20%;
+  margin: -20px 10px;
+}
+.textColor {
+  color: maroon;
+}
+.center1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+}
+.center12 {
+  display: flex;
+  flex-direction: column;
+}
+.center121 {
+  height: 55%;
+  font-size: x-large;
+}
+.center11,
+.center13,
+.center122 {
+  font-family: "Oswald", sans-serif;
+}
+.uaPravda {
+  font-family: "Bagerich";
+  text-align: center;
+}
+.center122 {
+  text-align: center;
+  font-size: small;
+}
+.center11 {
+  margin: 0 20px;
+  align-self: center;
+}
+.center132 {
+  height: 80%;
+  padding: 5px;
+  background-color: firebrick;
+  border: solid white;
+  border-radius: 5px;
+}
+.center13 {
+  height: 30%;
+  width: 15%;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.center131 {
+  margin-right: 15px;
+  padding: 5px;
+}
+
+.covid {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 10px 30px;
+}
+.cHeader {
+  color: firebrick;
+}
+.cHeader1 {
+  width: 24%;
+  height: 80px;
+  border: 1px  solid gainsboro;
+}
+.cHead {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cCenter {
+  margin: 10px;
+}
+.cBottom {
+  margin: 0 10px;
+}
+.newsPartOne {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 40px 20px;
+}
+.newsBlock {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nBlock {
+  width: 50%;
+  text-align: left;
+}
+.nBlockTwo {
+  width: 50%;
+}
+.newText {
+  font-weight: bold;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+.textAllNews {
+  font-weight: lighter;
+  color: brown;
+}
+.textgray {
+  color: gray;
+}
+.textUnderPhoto {
+  margin: -5px 0;
+  font-family: "Bagerich";
+  font-weight: bold;
+  font-size: 200%;
+}
+.boldNumbers {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.cHeader13 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px 0;
+  justify-content: space-around;
+}
+.numbersBig {
+  font-size: 4ex;
+}
+.imgUp {
+  margin: -15px 0;
+}
+.cHeader12 {
+  padding-top: 15px;
+  margin: 0 10px -20px;
+}
+.newsPartTwo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0  50px;
+}
+.box1{
+  flex: 1;
+}
+.box2{
+  flex: 2;
+}
+.lastNews{
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.listNews{
+  border-bottom: 1px solid gray;
+}
+.boxNews2{
+  display: flex;
+  flex-direction: column;
+
+}
