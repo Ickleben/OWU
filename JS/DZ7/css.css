@@ -1,0 +1,16 @@
+.hide{
+    display: none;
+}
+.open{
+    display: block;
+}
+
+
+
+.divBodyFixed{
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: 3px solid #73AD21;
+    background-color: aqua;
+}
