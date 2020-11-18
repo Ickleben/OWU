@@ -92,104 +92,200 @@ let email = document.getElementById('email')
 let company = document.getElementById('company')
 let department = document.getElementById('department')
 let birthd = document.getElementById('birthd')
-let index = 0
-button.onclick = (ev) => {
-    location.reload()
-    index += 1
-    localStorage.setItem('index', index)
-    if (name.value !== '') {
-        localStorage.setItem('name' + index, name.value)
+let buttonLoad =document.createElement('button')
+let buttonSaveChanges=document.createElement('button')
+buttonSaveChanges.innerText='Save Changes'
+buttonLoad.innerText='Загрузити список'
+
+span.appendChild(buttonLoad)
+span.appendChild(buttonSaveChanges)
+const arr=[]
+
+
+button.onclick=()=> {
+    class Users {
+        constructor(names, phone, email, company, department, birthd) {
+            this.names = names
+            this.phone = phone
+            this.email = email
+            this.company = company
+            this.department = department
+            this.birthd = birthd
+        }
 
 
     }
 
+    arr.push(new Users(name.value, phone.value, email.value, company.value, department.value, birthd.value))
 
-    if (phone.value !== '') {
-        localStorage.setItem('phone' + index, phone.value)
-    }
-    if (email.value !== '') {
-        localStorage.setItem('email' + index, email.value)
-    }
-    if (company.value !== '') {
-        localStorage.setItem('company' + index, company.value)
-    }
-    if (department.value !== '') {
-        localStorage.setItem('department' + index, department.value)
-    }
-    if (birthd.value !== '') {
-        localStorage.setItem('birthd' + index, birthd.value)
-    }
+    console.log(arr);
 
-}
-window.onload = function () {
-    let x = localStorage.getItem('index');
-    if (x) {
-        index = +x
-    }
-    for (let i = 1; i <= x; i++) {
-        let div = document.createElement('div')
-        document.body.appendChild(div)
-        div.innerText = localStorage.getItem('name' + i)
-        if (localStorage.getItem('name' + 1) !== '') {
+
+    localStorage.setItem('users', JSON.stringify(arr))
+
+
+    buttonLoad.onclick = () => {
+let divDelete=document.getElementsByTagName('div')
+        for (let c=0;c<divDelete.length;c++){
+            divDelete[c].style.display='none'
+
+        }
+        for (let x = 0; x < arr.length; x++) {
+            let div = document.createElement('div')
+            document.body.appendChild(div)
+            let a = JSON.stringify(arr[x])
+            div.innerText = a
             let del = document.createElement('button')
             let change = document.createElement('button')
             div.appendChild(del)
             div.appendChild(change)
             del.innerText = 'Delete'
             change.innerText = 'Change'
-            div.style.margin = '20px'
             del.onclick = (ev) => {
                 ev.target.parentElement.style.display = 'none'
-                localStorage.removeItem('phone' + i)
-                localStorage.removeItem('email' + i)
-                localStorage.removeItem('company' + i)
-                localStorage.removeItem('department' + i)
-                localStorage.removeItem('birthd' + i)
-                localStorage.removeItem('name' + i)
-                localStorage.setItem('index', i - 1)
+                let pos = arr.indexOf(a)
+                arr.splice(pos, 1)
+                console.log(arr);
+                localStorage.setItem('users', JSON.stringify(arr))
 
             }
             change.onclick = (ev) => {
-                button.style.display = 'none'
-                name.value = localStorage.getItem('name' + i)
-                phone.value = localStorage.getItem('phone' + i)
-                email.value = localStorage.getItem('email' + i)
-                company.value = localStorage.getItem('company' + i)
-                department.value = localStorage.getItem('department' + i)
-                birthd.value = localStorage.getItem('birthd' + i)
-                let buttonChangeSave = document.createElement('button')
-                buttonChangeSave.innerText = 'Save'
-                if (span.appendChild(buttonChangeSave)) {
-                } else {
-                    span.appendChild(buttonChangeSave)
-                }
-                buttonChangeSave.onclick = () => {
-                    if (name.value !== '') {
-                        localStorage.setItem('name' + i, name.value)
-                    }
-                    if (phone.value !== '') {
-                        localStorage.setItem('phone' + i, phone.value)
-                    }
-                    if (email.value !== '') {
-                        localStorage.setItem('email' + i, email.value)
-                    }
-                    if (company.value !== '') {
-                        localStorage.setItem('company' + i, company.value)
-                    }
-                    if (department.value !== '') {
-                        localStorage.setItem('department' + i, department.value)
-                    }
-                    if (birthd.value !== '') {
-                        localStorage.setItem('birthd' + i, birthd.value)
+
+                name.value = arr[x].names
+                phone.value = arr[x].phone
+                email.value = arr[x].email
+                company.value = arr[x].company
+                department.value = arr[x].department
+                birthd.value = arr[x].birthd
+                buttonSaveChanges.onclick = () => {
+                    class Save {
+                        constructor(names, phone, email, company, department, birthd) {
+                            this.names = names
+                            this.phone = phone
+                            this.email = email
+                            this.company = company
+                            this.department = department
+                            this.birthd = birthd
+                        }
+
+
                     }
 
-                    location.reload()
+                    let changeSaving = new Save(name.value, phone.value, email.value, company.value, department.value, birthd.value)
+
+                    arr.splice(x, 1, changeSaving)
+
+                    localStorage.setItem('users', JSON.stringify(arr))
+
+
                 }
 
             }
 
         }
+
     }
 }
+
+// ------------------ще один варіант з баганим видаленням
+// let index = 0
+// button.onclick = (ev) => {
+//     location.reload()
+//     index += 1
+//     localStorage.setItem('index', index)
+//     if (name.value !== '') {
+//         localStorage.setItem('name' + index, name.value)
+//
+//
+//     }
+//
+//
+//     if (phone.value !== '') {
+//         localStorage.setItem('phone' + index, phone.value)
+//     }
+//     if (email.value !== '') {
+//         localStorage.setItem('email' + index, email.value)
+//     }
+//     if (company.value !== '') {
+//         localStorage.setItem('company' + index, company.value)
+//     }
+//     if (department.value !== '') {
+//         localStorage.setItem('department' + index, department.value)
+//     }
+//     if (birthd.value !== '') {
+//         localStorage.setItem('birthd' + index, birthd.value)
+//     }
+//
+// }
+// window.onload = function () {
+//     let x = localStorage.getItem('index');
+//     if (x) {
+//         index = +x
+//     }
+    // for (let i = 1; i <= x; i++) {
+//         let div = document.createElement('div')
+//         document.body.appendChild(div)
+//         div.innerText = localStorage.getItem('name' + i)
+//         if (localStorage.getItem('name' + 1) !== '') {
+//             let del = document.createElement('button')
+//             let change = document.createElement('button')
+//             div.appendChild(del)
+//             div.appendChild(change)
+//             del.innerText = 'Delete'
+//             change.innerText = 'Change'
+//             div.style.margin = '20px'
+//             del.onclick = (ev) => {
+//                 ev.target.parentElement.style.display = 'none'
+//                 localStorage.removeItem('phone' + i)
+//                 localStorage.removeItem('email' + i)
+//                 localStorage.removeItem('company' + i)
+//                 localStorage.removeItem('department' + i)
+//                 localStorage.removeItem('birthd' + i)
+//                 localStorage.removeItem('name' + i)
+//                 localStorage.setItem('index', i - 1)
+//
+//             }
+//             change.onclick = (ev) => {
+//                 button.style.display = 'none'
+//                 name.value = localStorage.getItem('name' + i)
+//                 phone.value = localStorage.getItem('phone' + i)
+//                 email.value = localStorage.getItem('email' + i)
+//                 company.value = localStorage.getItem('company' + i)
+//                 department.value = localStorage.getItem('department' + i)
+//                 birthd.value = localStorage.getItem('birthd' + i)
+//                 let buttonChangeSave = document.createElement('button')
+//                 buttonChangeSave.innerText = 'Save'
+//                 if (span.appendChild(buttonChangeSave)) {
+//                 } else {
+//                     span.appendChild(buttonChangeSave)
+//                 }
+//                 buttonChangeSave.onclick = () => {
+//                     if (name.value !== '') {
+//                         localStorage.setItem('name' + i, name.value)
+//                     }
+//                     if (phone.value !== '') {
+//                         localStorage.setItem('phone' + i, phone.value)
+//                     }
+//                     if (email.value !== '') {
+//                         localStorage.setItem('email' + i, email.value)
+//                     }
+//                     if (company.value !== '') {
+//                         localStorage.setItem('company' + i, company.value)
+//                     }
+//                     if (department.value !== '') {
+//                         localStorage.setItem('department' + i, department.value)
+//                     }
+//                     if (birthd.value !== '') {
+//                         localStorage.setItem('birthd' + i, birthd.value)
+//                     }
+//
+//                     location.reload()
+//                 }
+//
+//             }
+//
+//         }
+//     }
+// }
 
 
