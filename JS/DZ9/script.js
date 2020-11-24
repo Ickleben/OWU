@@ -12,7 +12,7 @@
 //     Якщо ж все ок, то ви маєте прожити свій звичайний день.
 //     Кожна подія має бути з рандомною (не по зростанню) затримкою.
 
-
+//
 // let energy = 2000
 // console.log(`Початок дня у мене ${energy} поінтів енергії`)
 // function daySeven(en,cbSeven) {
@@ -98,7 +98,7 @@
 //         cbSix(null, dataSix)
 //     }, 1000)
 // }
-
+//
 // daySeven(energy,(err, en) => {
 //     if (err) {
 //         console.log('ТИ не зміг прокинутися WASTED')
@@ -288,7 +288,7 @@ dayOne(energy).then(en=>{
     })
     .then(video=>{
         console.log(`Так достатньо ${video} рпзів переглянути лекцію, я зрозумів promise`)
-       
+
 
     })
 .catch(reason=>{

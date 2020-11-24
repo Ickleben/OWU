@@ -102,81 +102,84 @@ span.appendChild(buttonSaveChanges)
 const arr=[]
 
 
-button.onclick=()=> {
-    class Users {
-        constructor(names, phone, email, company, department, birthd) {
-            this.names = names
-            this.phone = phone
-            this.email = email
-            this.company = company
-            this.department = department
-            this.birthd = birthd
+    button.onclick = () => {
+
+        class Users {
+            constructor(names, phone, email, company, department, birthd) {
+                this.names = names
+                this.phone = phone
+                this.email = email
+                this.company = company
+                this.department = department
+                this.birthd = birthd
+            }
+
+
         }
 
+        arr.push(new Users(name.value, phone.value, email.value, company.value, department.value, birthd.value))
 
-    }
-
-    arr.push(new Users(name.value, phone.value, email.value, company.value, department.value, birthd.value))
-
-    console.log(arr);
+        console.log(arr);
 
 
-    localStorage.setItem('users', JSON.stringify(arr))
+        localStorage.setItem('users', JSON.stringify(arr))
 
 
-    buttonLoad.onclick = () => {
-let divDelete=document.getElementsByTagName('div')
-        for (let c=0;c<divDelete.length;c++){
-            divDelete[c].style.display='none'
-
-        }
-        for (let x = 0; x < arr.length; x++) {
-            let div = document.createElement('div')
-            document.body.appendChild(div)
-            let a = JSON.stringify(arr[x])
-            div.innerText = a
-            let del = document.createElement('button')
-            let change = document.createElement('button')
-            div.appendChild(del)
-            div.appendChild(change)
-            del.innerText = 'Delete'
-            change.innerText = 'Change'
-            del.onclick = (ev) => {
-                ev.target.parentElement.style.display = 'none'
-                let pos = arr.indexOf(a)
-                arr.splice(pos, 1)
-                console.log(arr);
-                localStorage.setItem('users', JSON.stringify(arr))
+        buttonLoad.onclick = () => {
+            let divDelete = document.getElementsByTagName('div')
+            for (let c = 0; c < divDelete.length; c++) {
+                divDelete[c].style.display = 'none'
 
             }
-            change.onclick = (ev) => {
+            for (let x = 0; x < arr.length; x++) {
+                let div = document.createElement('div')
+                document.body.appendChild(div)
+                let a = JSON.stringify(arr[x])
+                div.innerText = a
+                let del = document.createElement('button')
+                let change = document.createElement('button')
+                div.appendChild(del)
+                div.appendChild(change)
+                del.innerText = 'Delete'
+                change.innerText = 'Change'
+                del.onclick = (ev) => {
+                    ev.target.parentElement.style.display = 'none'
+                    let pos = arr.indexOf(a)
+                    arr.splice(pos, 1)
+                    console.log(arr);
+                    localStorage.setItem('users', JSON.stringify(arr))
 
-                name.value = arr[x].names
-                phone.value = arr[x].phone
-                email.value = arr[x].email
-                company.value = arr[x].company
-                department.value = arr[x].department
-                birthd.value = arr[x].birthd
-                buttonSaveChanges.onclick = () => {
-                    class Save {
-                        constructor(names, phone, email, company, department, birthd) {
-                            this.names = names
-                            this.phone = phone
-                            this.email = email
-                            this.company = company
-                            this.department = department
-                            this.birthd = birthd
+                }
+                change.onclick = (ev) => {
+
+                    name.value = arr[x].names
+                    phone.value = arr[x].phone
+                    email.value = arr[x].email
+                    company.value = arr[x].company
+                    department.value = arr[x].department
+                    birthd.value = arr[x].birthd
+                    buttonSaveChanges.onclick = () => {
+                        class Save {
+                            constructor(names, phone, email, company, department, birthd) {
+                                this.names = names
+                                this.phone = phone
+                                this.email = email
+                                this.company = company
+                                this.department = department
+                                this.birthd = birthd
+                            }
+
+
                         }
+
+                        let changeSaving = new Save(name.value, phone.value, email.value, company.value, department.value, birthd.value)
+
+                        arr.splice(x, 1, changeSaving)
+
+                        localStorage.setItem('users', JSON.stringify(arr))
 
 
                     }
-
-                    let changeSaving = new Save(name.value, phone.value, email.value, company.value, department.value, birthd.value)
-
-                    arr.splice(x, 1, changeSaving)
-
-                    localStorage.setItem('users', JSON.stringify(arr))
-
 
                 }
 
@@ -184,9 +187,7 @@ let divDelete=document.getElementsByTagName('div')
 
         }
 
-    }
 }
-
 // ------------------ще один варіант з баганим видаленням
 // let index = 0
 // button.onclick = (ev) => {
