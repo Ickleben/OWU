@@ -493,4 +493,44 @@
 // },0)
 // console.log(sum);
 //
+// Задача: дан отсортированный по возрастанию массив целых чисел. Необходимо вернуть наименьший и наибольший индекс заданного элемента.
+//     Входные данные: arr — массив целых чисел значения которых по модулю не больше 10. Размер массива не более 10 элементов.
+//     Вывод: наибольший и наименьший индекс в массиве заданного элемента. Если такого элемента нет в массиве, выведите -1.
+//
+// Пример:
+//     Arr = [1, 2, 3, 4, 4, 4, 4, 7, 7, 9, 14]
+// 1. Key = 1
+// Answer: MinIndex = 0, MaxIndex = 0.
+// 2. Key = 4
+// Answer: MinIndex = 3, MaxIndex = 6.
 
+let indexs = [];
+let Arr = [1, 2, 3, 4, 4, 4, 4, 7, 7, 9, 14]
+let number = +prompt('Ведіть число')
+let idx = Arr.indexOf(number);
+if (idx==-1){
+    console.log(`Key ${number}`);
+    console.log(`Maxindex = ${idx}`);
+    console.log(`Minindex = ${idx}`);
+}else {
+    while (idx != -1) {
+        indexs.push(idx);
+        idx = Arr.indexOf(number, idx + 1);
+    }
+    console.log(`Key ${number}`);
+    let max = indexs[0];
+    let min = indexs[0];
+
+    for (let i = 1; i < indexs.length; i++) {
+        if (indexs[i] < min) {
+            min = indexs[i]
+        }
+
+        if (indexs[i] > max) {
+            max = indexs[i]
+        }
+    }
+    console.log(`Maxindex = ${max}`);
+    console.log(`Minindex = ${min}`);
+
+}
