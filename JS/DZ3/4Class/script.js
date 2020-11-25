@@ -71,4 +71,23 @@
 //     h2.innerText=`${rules[rule].title}`
 //     div2.innerText=`${rules[rule].body}`
 // }
-            
+// *** за допомогою fetch (як в прикладі) отримати від jsonplaceholder всі users. За допомогою document.createElement вивести їх в браузер. Помістити кожен окремий об'єкт в блок, при цьому кожен внутрішній об'єкт в свій блок (блок в блоці).
+// fetch('https://jsonplaceholder.typicode.com/users')
+//     .then((response) => response.json())
+//     .then((json) => json.forEach(({id, name, username, email,website,address,company,phone}) => {
+//         let div=document.createElement('div')
+//         let divAddress=document.createElement('div')
+//         let divCompany=document.createElement('div')
+//         let divGeo=document.createElement('div')
+//         div.style.margin='20px'
+//         document.body.appendChild(div)
+//     div.innerText=`id:${id}: NAME:${name}.  USERNAME:${username};  EMAIL:${email} WEBSITE:${website}    PHONE:${phone}`
+//         div.appendChild(divAddress)
+//         div.appendChild(divGeo)
+//         div.appendChild(divCompany)
+//         divAddress.innerText=`ADDRESS:${address.street},${address.suite},${address.city} ,${address.zipcode} `
+//         divGeo.innerText=`GEO:${address.geo.lat},${address.geo.lng}`
+//         divCompany.innerText=`COMPANY:${company.name},${company.catchPhrase},${company.bs}`
+//   })
+// )
+
