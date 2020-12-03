@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
-
+import './PostComponent.css'
 class PostComponent extends Component {
 
     render() {
-        let  {item}=this.props
+        let  {item,selectPost}=this.props
         return (
-            <div>
-                {item.id}-{item.body}<button onClick={}>choose</button>
+            <div className={'divka'}>
+                {item.id}-{item.body}<button onClick={() => selectPost(item.id)}>Hold</button>
             </div>
         );
     }
