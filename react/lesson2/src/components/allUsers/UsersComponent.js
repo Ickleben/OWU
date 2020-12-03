@@ -2,30 +2,31 @@ import React, {Component} from 'react';
 import './UsersComponent.css'
 class UsersComponent extends Component {
 
-hold(){
-    let {key}=this.props
-    console.log(key)
-}
-
 
     render() {
 
-        let {item,selectPost,holding} = this.props;
+        let {item, selectPost, choosenPost} = this.props;
 
+
+            let holding = 'one'
+            if (choosenPost != null&&choosenPost.id == item.id) {
+                holding ='two'
+            }else {holding='one'}
 
             return (
 
                 <div>
 
-                    {item.id}<span className={holding}>--------------</span>
+                   <span> {item.id}</span><span className={holding}>{item.body}</span>
                     <button onClick={() => selectPost(item.id)}>Hold</button>
+
                 </div>
 
             );
 
 
-    }
+        }
 
-}
+    }
 
 export default UsersComponent;

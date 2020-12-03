@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import UsersComponent from "./allUsers/UsersComponent";
 
 class UiComponent extends Component {
-    state={posts:[],holding: 'one',choosenPost:null};
-    flag = false;
+    state={posts:[],choosenPost:null};
+
     componentDidMount() {
         fetch('https://jsonplaceholder.typicode.com/posts')
             .then(response => response.json())
@@ -12,17 +12,7 @@ class UiComponent extends Component {
 
             })
     }
-    hold(choosenPost) {
 
-        if (choosenPost!==null) {
-            this.setState({holding: 'two'})
-            choosenPost=null
-        } else {
-            this.setState({holding: 'one'})
-        }
-
-
-    };
 
     selectPost =(id)=>{
         let choosenPost=this.state.posts.find(value => value.id===id)

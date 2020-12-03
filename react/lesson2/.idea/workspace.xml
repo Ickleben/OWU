@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3373991-2c78-48fc-bd38-f68da09f64a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UIComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/allUsers/UsersComponent.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/allUsers/UsersComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../first-app/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/../first-app/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../home-one/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../home-one/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UIComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UIComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/allUsers/UsersComponent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/allUsers/UsersComponent.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/allUsers/UsersComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/allUsers/UsersComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +57,23 @@
       <option name="presentableId" value="Default" />
       <updated>1606937705136</updated>
       <workItem from="1606937707623" duration="10681000" />
-      <workItem from="1606949084678" duration="323000" />
+      <workItem from="1606949084678" duration="5275000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1606949571343</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606949571343</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
