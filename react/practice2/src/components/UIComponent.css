@@ -1,0 +1,22 @@
+.body{
+    display: flex;
+width: 100%;
+}
+.one{
+
+    background-color: red;
+}
+.two{
+
+    background-color: yellow;
+}
+.three{
+
+    background-color: blue;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
