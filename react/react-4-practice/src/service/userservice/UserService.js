@@ -7,4 +7,11 @@ url='https://jsonplaceholder.typicode.com/users'
                 return value;
             })
     }
+    // getElementBYId(id) {
+    //     return fetch(`${this.url}/${id}`)
+    //         .then(value => value.json())
+    //         .then(value => {
+    //             return value;
+    //         })
+    // }
 }

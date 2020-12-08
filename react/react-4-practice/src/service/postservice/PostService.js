@@ -8,7 +8,7 @@ export class PostService {
             })
     }
     getPostById(id) {
-        return fetch(`${this.url}/${id}`)
+        return fetch(`${this.url}?userId=${id}`)
             .then(value => value.json())
             .then(value => {
                 return value;

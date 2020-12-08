@@ -9,30 +9,32 @@ import {
     withRouter,
     Link
 } from "react-router-dom";
-import {PostService} from "../../service/postservice/PostService";
+
 import UsersPosts from "./UsersPosts";
 class AllUsers extends Component {
 
     userService= new UserService()
 
     state={users:[]}
-    componentDidMount() {
-        this.userService.getAllUsers().then(value => this.setState({users:value}))
+    async componentDidMount() {
+        await this.userService.getAllUsers().then(value => this.setState({users:value}))
     }
-// getElementBYId(id){
-//         this.postService.getPostById(id).then(value => this.setState({userPost:value}))
-// }
+
     render() {
         let {users}=this.state
 
         return (
             <div>
 
-                {users.map(value => {return <User item={value} key={value.id} />})}
+                {users.map(value => {return <User item={value} key={value.id}  />})}
 <hr/>
                 <Switch>
-                    <Route path={'/users/:id'}render={()=> {return <UsersPosts/>}
+                    <Route path={'/users/:id'} render={(props)=> {
+
+                        return (<UsersPosts />)}
+
                     }/>
+
                 </Switch>
             </div>
 
