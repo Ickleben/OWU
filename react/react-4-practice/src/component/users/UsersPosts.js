@@ -1,43 +1,43 @@
 import React, {Component} from 'react';
 import {PostService} from "../../service/postservice/PostService";
 
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    withRouter,
-    Link
-} from "react-router-dom";
+import {Route, Switch, withRouter} from "react-router-dom";
 import UserPost from "./UserPost";
 
 import UserComent from "./UserComent";
+
 class UsersPosts extends Component {
-    postService= new PostService()
-    state={userPost:[],prevProps:[{userId:0}]}
+    postService = new PostService()
+    state = {userPost: [], prevProps: [{userId: 0}]}
+
     upgrade() {
-       let {prevProps}=this.state
+        let {prevProps} = this.state
         let {match: {params}} = this.props
         if (+params.id !== prevProps[0].userId) {
-            this.postService.getPostById(params.id).then(value => this.setState({userPost: value,prevProps:value}))
+            this.postService.getPostById(params.id).then(value => this.setState({userPost: value, prevProps: value}))
 
 
         }
     }
+
     render() {
 
-this.upgrade()
-        let {userPost}=this.state
-let {match:{url}}=this.props
+        this.upgrade()
+        let {userPost} = this.state
+        let {match: {url}} = this.props
 
-       return (
-            <div >
+        return (
+            <div>
                 <div style={{color: 'white'}}>POSTS</div>
-                {userPost.map(value => {return <UserPost item={value} key={value.id}  />})}
+                {userPost.map(value => {
+                    return <UserPost item={value} key={value.id}/>
+                })}
                 <hr/>
                 <Switch>
-                    <Route path={`${url}/:id`} render={(props)=> {
+                    <Route path={`${url}/:id`} render={(props) => {
 
-                        return (<UserComent/>)}
+                        return (<UserComent/>)
+                    }
 
                     }/>
 
