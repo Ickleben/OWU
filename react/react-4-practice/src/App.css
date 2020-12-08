@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+.divka{
+  background-color: black;
+  border: black solid;
+}
 
 .App-logo {
   height: 40vmin;

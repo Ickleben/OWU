@@ -8,11 +8,12 @@ import {
 } from "react-router-dom";
 import AllPosts from "./component/posts/AllPosts";
 import AllComents from "./component/coments/AllComents";
+import './App.css'
 class App extends Component {
     render() {
         return (
             <Router>
-            <div>
+            <div className={'divka'}>
                 <Link to={'/users'} >
                     USERS
                 </Link>{' '}

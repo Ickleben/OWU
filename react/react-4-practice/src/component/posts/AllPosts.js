@@ -12,7 +12,7 @@ class AllPosts extends Component {
     render() {
         let {posts}=this.state
         return (
-            <div>
+            <div style={{background:'white'}}>
                 {posts.map(value => {return <Post item={value} key={value.id}/>})}
             </div>
         );

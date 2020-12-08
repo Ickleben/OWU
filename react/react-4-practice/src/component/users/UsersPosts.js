@@ -30,7 +30,8 @@ this.upgrade()
 let {match:{url}}=this.props
 
        return (
-            <div>
+            <div >
+                <div style={{color: 'white'}}>POSTS</div>
                 {userPost.map(value => {return <UserPost item={value} key={value.id}  />})}
                 <hr/>
                 <Switch>

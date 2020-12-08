@@ -20,7 +20,7 @@ class UserPost extends Component {
 
         return (
             <div style={{background: `${this.colore()}`}} className={'divka2'}>
-                {item.userId}.{item.id}-{item.body}<Link to={`${url}/${item.id} `}  >Posts</Link>
+                {item.userId}.{item.id}-{item.body}<Link to={`${url}/${item.id} `}  >Comments</Link>
             </div>
         );
     }

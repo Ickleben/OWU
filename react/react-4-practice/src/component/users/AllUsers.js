@@ -25,7 +25,7 @@ class AllUsers extends Component {
 
         return (
             <div>
-
+                <div style={{color: 'white'}}>USERS</div>
                 {users.map(value => {return <User item={value} key={value.id}  />})}
 <hr/>
                 <Switch>

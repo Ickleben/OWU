@@ -21,6 +21,7 @@ class UserComent extends Component {
         let {postComent}=this.state
         return (
             <div>
+                <div style={{color: 'white'}}>COMMENTS</div>
                 {postComent.map(value => {return <ComentsUser item={value} key={value.id}  />})}
 
             </div>

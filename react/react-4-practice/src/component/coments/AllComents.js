@@ -13,7 +13,7 @@ class AllComents extends Component {
     render() {
         let {comments}=this.state
         return (
-            <div>
+            <div style={{background:'white'}}>
                 {comments.map(value => {return <Coments item={value} key={value.id}/>})}
             </div>
         );
