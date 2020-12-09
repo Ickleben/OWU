@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5456e193-af59-4ad6-b9a6-f007bb750435" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../dz-4/src/component/AllPost/Allpost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dz-4/src/component/AllUsers/AllUsers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dz-4/src/component/post/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dz-4/src/component/user/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dz-4/src/service/PostService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dz-4/src/service/UserService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dz-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dz-3/dz-3/src/component/post/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-3/dz-3/src/component/post/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dz2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../home-one/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../home-one/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson2/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson2/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/users/AllUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/users/AllUsers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/users/ComentsUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/users/ComentsUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/users/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/users/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/users/UserComent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/users/UserComent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/users/UserPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/users/UserPost.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/users/UsersPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/users/UsersPosts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/comentservice/ComentService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/comentservice/ComentService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/userservice/UserService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/userservice/UserService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +59,7 @@
       <workItem from="1607444007819" duration="4957000" />
       <workItem from="1607452782492" duration="14946000" />
       <workItem from="1607467800404" duration="1235000" />
+      <workItem from="1607546172470" duration="407000" />
     </task>
     <task id="LOCAL-00001" summary="practice-4">
       <created>1607456811581</created>

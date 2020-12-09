@@ -28,8 +28,8 @@ class AllUsers extends Component {
                 <hr/>
                 <Switch>
                     <Route path={'/users/:id'} render={(props) => {
-
-                        return (<UsersPosts/>)
+                        let {match:{params:{id}}}=props
+                        return (<UsersPosts id={id} key={id}/>)
                     }
 
                     }/>
