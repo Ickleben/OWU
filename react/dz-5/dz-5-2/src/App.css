@@ -1,7 +1,12 @@
 .Links{
-  border: black solid;
+  padding: 10px 20px;
+  border:1px black solid;
   margin:0 10px 0 0 ;
-  background-color: yellow;
+  background-color: dodgerblue;
+  opacity: 0.7;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
 }
 .header{
   padding: 20px;

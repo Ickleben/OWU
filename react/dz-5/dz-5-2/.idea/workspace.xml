@@ -2,55 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22fe0006-0053-4e80-beb6-de45083d9640" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dz-5-2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/films/AllFilms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/films/ChoosenFilm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/films/Film.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/people/AllPeople.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/people/ChoosenPeople.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/people/People.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/planets/AllPlanets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/planets/ChoosenPlanets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/planets/Planets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/species/AllSpecies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/species/ChoosenSpecies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/species/Specie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/starship/AllStarSip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/starship/ChoosenStarShip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/starship/StartShip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/vehicles/AllVehicles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/vehicles/ChoosenVehicle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/vehicles/Vehicle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/films/FilmsService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/people/PeopleService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/planets/PlanetsService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/species/SpeciesService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/starship/StarShipService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/vehicles/VehiclesService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../dz-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dz-4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dz-5-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react-4-practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../react-4-practice/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,11 +49,23 @@
       <option name="presentableId" value="Default" />
       <updated>1607552225496</updated>
       <workItem from="1607552226629" duration="4334000" />
-      <workItem from="1607593684752" duration="11254000" />
+      <workItem from="1607593684752" duration="11866000" />
     </task>
+    <task id="LOCAL-00001" summary="dz-5-2">
+      <created>1607607016089</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607607016089</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dz-5-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="dz-5-2" />
   </component>
 </project>
