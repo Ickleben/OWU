@@ -1,0 +1,41 @@
+.users{
+    background-color: antiquewhite;
+    opacity: 0.7;
+
+}
+.center{
+    display: flex;
+
+}
+.choosen{
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    width: 400px;
+
+    background-color: antiquewhite;
+    opacity: 0.7;
+}
+.AllUsers{
+    width: 400px;
+    border: solid purple;
+    margin-bottom: 5px;
+}
+.AllUserbox{
+    display: flex;
+
+}
+.post{
+    margin: 100px 200px 0;
+    background-color: white;
+    opacity: 0.7;
+}
+.Allposts{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.AllPostes{
+    border: purple solid;
+    flex: 200px
+}

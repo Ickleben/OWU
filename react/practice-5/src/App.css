@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+
+  display: flex;
+
+
+
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  margin: 10px 10px;
+  color: #61dafb;
+  font-weight: bold;
+  text-decoration: none;
+}
+.logo{
+
+
+  padding: -15px 0;
+
+}
+html{
+  width: 100%;
+  height: 100%;
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-image: url("https://steamuserimages-a.akamaihd.net/ugc/785246265590932496/69FF77147E60E0D301282E01D178BCAB5541C44D/");
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f285d62-8d27-487f-a71e-9e399f51b95e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/users/AllUsers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/users/ChoosenUsers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/users/Css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/users/Post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/users/Posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/users/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/post/PostService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/users/UserService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/films/AllFilms.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/films/AllFilms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/people/AllPeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/people/AllPeople.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/planets/AllPlanets.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/planets/AllPlanets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/species/AllSpecies.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/species/AllSpecies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/starship/AllStarSip.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/starship/AllStarSip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/vehicles/AllVehicles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/vehicles/AllVehicles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-4-practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-4-practice/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1lVyihiS14i0HtbdDMbVyCEjr0s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f285d62-8d27-487f-a71e-9e399f51b95e" name="Default Changelist" comment="" />
+      <created>1607696685978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607696685978</updated>
+      <workItem from="1607696690588" duration="110000" />
+      <workItem from="1607696802604" duration="16725000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
