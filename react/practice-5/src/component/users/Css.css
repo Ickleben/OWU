@@ -1,13 +1,15 @@
-.users{
+.users {
     background-color: antiquewhite;
     opacity: 0.7;
 
 }
-.center{
+
+.center {
     display: flex;
 
 }
-.choosen{
+
+.choosen {
     position: absolute;
     right: 10px;
     text-align: center;
@@ -16,26 +18,105 @@
     background-color: antiquewhite;
     opacity: 0.7;
 }
-.AllUsers{
+
+.AllUsers {
     width: 400px;
     border: solid purple;
     margin-bottom: 5px;
 }
-.AllUserbox{
+
+.AllUserbox {
     display: flex;
 
 }
-.post{
-    margin: 100px 200px 0;
+
+.post {
+    margin: 80px 150px 0;
     background-color: white;
     opacity: 0.7;
 }
-.Allposts{
+
+.Allposts {
     display: flex;
     flex-wrap: wrap;
 
 }
-.AllPostes{
+
+.AllPostes {
+
     border: purple solid;
-    flex: 200px
+    flex: 200px;
+    border-radius: 5px;
+}
+
+.Button {
+    margin-left: 10px;
+    margin-bottom: 3px;
+    background-color: purple;
+    border: 1px antiquewhite solid;
+    border-radius: 10px;
+    color: antiquewhite;
+    outline: none;
+}
+
+.link-post {
+    padding: 0px 5px;
+    margin: 0 10px;
+    margin-bottom: 3px;
+    color: #fff0f5;
+    background-color: #61dafb;
+    border: 1px purple solid;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.link-comments {
+
+    background-color: deeppink;
+    padding: 0 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    color: antiquewhite;
+}
+
+.Post {
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+.head-choosen {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.Post-number {
+    text-align: center;
+    font-weight: bold;
+    color: deeppink;
+}
+
+.post-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.All-comments {
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comments-num {
+    text-align: center;
+    font-weight: bold;
+    color: deeppink;
+}
+
+.comments-name {
+    font-weight: bold;
 }

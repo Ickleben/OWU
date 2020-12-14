@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import PostService from "../../service/post/PostService";
 import Post from "./Post";
+import Commnets from "./Commnets";
 class Posts extends Component {
     postService= new PostService()
     state={choosenPosts:null}
@@ -18,12 +19,18 @@ class Posts extends Component {
     }
     render() {
 let {choosenPosts} = this.state;
+let {match:{url}} = this.props;
 
 
         return (
+
             <div className={'Allposts'}>
+
                 {choosenPosts && choosenPosts.map((value,index)=>{return (<Post item={value} key={index}/>)})}
+
+
             </div>
+
         );
     }
 }

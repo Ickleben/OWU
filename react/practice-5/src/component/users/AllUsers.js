@@ -44,10 +44,13 @@ let{match:{url}}=this.props
                         </div>
                 </div>
                         <Switch>
+
                             <div className={'post'}>
+
                             <Route path={`/users/:id`} render={(props)=>{
                                 let {match:{params:{id}}}=props
                                 return (<Posts id={id} key={id}/>)}}/>
+
                     </div>
 {/*<div>*/}
 {/*

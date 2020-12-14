@@ -23,8 +23,8 @@ class User extends Component {
                 {item.name}
                 </div>
 
-                    <button onClick={() => selectPost(item.id)}>Hold</button>
-                <Link to={`${url}/${item.id}`}>About</Link>
+                    <button  className="Button" onClick={() => selectPost(item.id)}>Details</button>
+                <Link  className='link-post' to={`${url}/${item.id}`}>Post</Link>
 
 
 
