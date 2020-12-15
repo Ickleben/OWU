@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c5c9e2a-1728-4760-a4e9-a684af0d92fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/comments/AllComments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/comments/ChoosenCommnet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/comments/Comment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/comments/Comment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/post/AllPost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/post/JustPost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/post/Post.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/post/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/user/AllUsers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/user/User.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/user/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/CommentService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/PostService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/UserService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dz-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/.eslintcache" afterDir="false" />
@@ -84,11 +70,23 @@
       <updated>1608033315685</updated>
       <workItem from="1608033317766" duration="1409000" />
       <workItem from="1608039246728" duration="81000" />
-      <workItem from="1608039336457" duration="12801000" />
+      <workItem from="1608039336457" duration="13154000" />
     </task>
+    <task id="LOCAL-00001" summary="dz-6">
+      <created>1608069746634</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608069746634</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dz-6" />
+    <option name="LAST_COMMIT_MESSAGE" value="dz-6" />
   </component>
 </project>
