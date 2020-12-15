@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c5c9e2a-1728-4760-a4e9-a684af0d92fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/component/comments/AllComments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/comments/ChoosenCommnet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/comments/Comment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/comments/Comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/post/AllPost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/post/JustPost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/post/Post.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/post/Post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/user/AllUsers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/user/User.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/user/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/CommentService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/PostService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/UserService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/films/AllFilms.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/films/AllFilms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/people/AllPeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/people/AllPeople.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/planets/AllPlanets.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/planets/AllPlanets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/species/AllSpecies.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/species/AllSpecies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/starship/AllStarSip.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/starship/AllStarSip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/vehicles/AllVehicles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/vehicles/AllVehicles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice-5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-4-practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-4-practice/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="practice-5" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1lgz2ZCgVpqqpABgSIwdaVrYXz9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Octum\react\dz-6\src\component\user" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c5c9e2a-1728-4760-a4e9-a684af0d92fe" name="Default Changelist" comment="" />
+      <created>1608033315685</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608033315685</updated>
+      <workItem from="1608033317766" duration="1409000" />
+      <workItem from="1608039246728" duration="81000" />
+      <workItem from="1608039336457" duration="12801000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
