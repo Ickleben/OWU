@@ -8,7 +8,7 @@ export default function  (){
 
    let Add=(e)=>{
         e.preventDefault()
-       let r=2334234
+
        const name =e.target[0].value
        const age =+e.target[1].value
        dispatch({type:'ADD',payload:{id:new Date().getTime(), name,age }})
@@ -44,12 +44,12 @@ e.preventDefault()
                 <input type='number'/>
                 <button>save</button>
             </form>
-
-
-                <div > {state.map(value=>(<p key={value.id} onClick={Choose}>name:{value.name} age:{value.age}<div className='display-none'>{value.id}</div></p>))}</div>
             <form onSubmit={Delete}>
                 <button>delete</button>
             </form>
+
+                <div > {state.map(value=>(<p className='text-align' key={value.id} onClick={Choose}>name:{value.name} age:{value.age}<div className='display-none'>{value.id}</div></p>))}</div>
+
 
         </div>
     )

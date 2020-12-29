@@ -2,32 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9028f10-fed8-4afb-893f-84563c44d215" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/practice-9.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dz-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/.eslintcache" afterDir="false" />
@@ -45,6 +19,7 @@
       <change beforePath="$PROJECT_DIR$/../dz-8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dz-9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-9/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practice-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice-5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react-4-practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-4-practice/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,11 +68,23 @@
       <option name="presentableId" value="Default" />
       <updated>1609257884903</updated>
       <workItem from="1609257887105" duration="5132000" />
-      <workItem from="1609268610921" duration="6359000" />
+      <workItem from="1609268610921" duration="7260000" />
     </task>
+    <task id="LOCAL-00001" summary="practice-9">
+      <created>1609275801532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609275801533</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="practice-9" />
+    <option name="LAST_COMMIT_MESSAGE" value="practice-9" />
   </component>
 </project>
