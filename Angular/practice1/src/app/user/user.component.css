@@ -1,0 +1,20 @@
+.userBox{
+  border: cadetblue solid;
+  width: 200px;
+  margin:5px 10px;
+
+}
+.address{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.id{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.user{
+  text-align: center;
+
+}
