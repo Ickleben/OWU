@@ -1,0 +1,14 @@
+.dspFlex{
+  display: flex;
+
+}
+.Posts{
+  background-color: lightgray;
+  border: silver;
+  margin-left: 50px;
+  width: 50%;
+}
+.User{
+  background-color: yellow;
+  width: 50%;
+}
