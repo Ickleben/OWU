@@ -1,0 +1,6 @@
+<div>
+  <app-post *ngFor="let post of post" [post]="post" (bubbleUp)="getBubble($event)"></app-post>
+</div>
+<h3>
+  <app-post [post]="singlePost"></app-post>
+</h3>
