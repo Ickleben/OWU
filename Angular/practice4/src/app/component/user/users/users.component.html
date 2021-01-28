@@ -1,0 +1,8 @@
+<div class="dsp_flex">
+  <div class="AllUser">
+    <app-user *ngFor="let user of users " [user]="user"></app-user>
+  </div>
+  <div class="ChoosenUser">
+    <router-outlet></router-outlet>
+  </div>
+</div>
