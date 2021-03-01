@@ -1,13 +1,9 @@
 import React, {Component} from 'react';
 import SpeciesService from "../../service/species/SpeciesService";
 import Specie from "./Specie";
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link,withRouter
-} from "react-router-dom";
+import {Route, Switch, withRouter} from "react-router-dom";
 import ChoosenSpecies from "./ChoosenSpecies";
+
 class AllSpecies extends Component {
     speciesService=new SpeciesService()
     state={species:[]}

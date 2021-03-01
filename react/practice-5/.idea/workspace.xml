@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f285d62-8d27-487f-a71e-9e399f51b95e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/Bank/Allbank.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Bank/Bank.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Bank/Bank.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/users/Commnet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/users/Commnets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/bank/BankService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/comments/CommentService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dz-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/.eslintcache" afterDir="false" />
@@ -19,19 +12,6 @@
       <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/species/AllSpecies.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/species/AllSpecies.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/starship/AllStarSip.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/starship/AllStarSip.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/vehicles/AllVehicles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/src/component/vehicles/AllVehicles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/users/AllUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/users/AllUsers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/users/ChoosenUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/users/ChoosenUsers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/users/Css.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/users/Css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/users/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/users/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/users/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/users/Posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/users/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/users/User.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react-4-practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-4-practice/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dz-6" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -89,6 +69,8 @@
       <workItem from="1607862284324" duration="1123000" />
       <workItem from="1607872784674" duration="3240000" />
       <workItem from="1607882732075" duration="9012000" />
+      <workItem from="1607983391001" duration="512000" />
+      <workItem from="1608033306409" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="practice-5">
       <created>1607808915143</created>
@@ -97,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607808915143</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="practice-5">
+      <created>1607983645481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607983645481</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

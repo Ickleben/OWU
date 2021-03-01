@@ -1,13 +1,9 @@
 import React, {Component} from 'react';
 import StarShipService from "../../service/starship/StarShipService";
 import StartShip from "./StartShip";
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+import {Route} from "react-router-dom";
 import ChoosenStarShip from "./ChoosenStarShip";
+
 class AllStarSip extends Component {
     starShipService=new StarShipService()
     state={starship:[]}

@@ -1,14 +1,9 @@
 import React, {Component} from 'react';
 import VehiclesService from "../../service/vehicles/VehiclesService";
 import Vehicle from "./Vehicle";
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    withRouter,
-    Link
-} from "react-router-dom";
+import {Route, Switch, withRouter} from "react-router-dom";
 import ChoosenVehicle from "./ChoosenVehicle";
+
 class AllVehicles extends Component {
     vehiclesService=new VehiclesService()
     state={vehicles:[]}

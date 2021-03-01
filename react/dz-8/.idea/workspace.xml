@@ -2,30 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3718805-27be-48f5-ae8e-9a4159a014d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dz-8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/UserService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/users/Users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dz-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dz-5/dz-5-2/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5/dz-5-2/.eslintcache" afterDir="false" />
@@ -40,6 +16,7 @@
       <change beforePath="$PROJECT_DIR$/../dz-6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-6/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dz-6/src/component/comments/Comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-6/src/component/comments/Comment.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dz-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practice-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice-5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react-4-practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-4-practice/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -56,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="dz-7" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1mC71QLRRnm0YgnzTt2caW8VVgY" />
@@ -67,6 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dz-9" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -78,11 +61,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608985507979</updated>
-      <workItem from="1608985513425" duration="3359000" />
+      <workItem from="1608985513425" duration="3471000" />
+      <workItem from="1609233260999" duration="456000" />
     </task>
+    <task id="LOCAL-00001" summary="dz-8">
+      <created>1608990049996</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608990049996</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dz-8" />
+    <option name="LAST_COMMIT_MESSAGE" value="dz-8" />
   </component>
 </project>

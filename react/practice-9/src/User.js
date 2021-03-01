@@ -25,7 +25,7 @@ export default function  (){
         }
 
             setId(+e.target.children[0].innerText)
-
+        console.log(+e.target.children[0].innerText)
             e.target.style.backgroundColor = 'red'
 
     }
@@ -40,7 +40,7 @@ e.preventDefault()
         <div>
 
             <form onSubmit={Add}>
-                <input type='text'/>
+                <input type='text' />
                 <input type='number'/>
                 <button>save</button>
             </form>

@@ -1,14 +1,9 @@
 import React, {Component} from 'react';
 import FilmsService from "../../service/films/FilmsService";
 import Film from "./Film";
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    withRouter,
-    Link
-} from "react-router-dom";
+import {Route, Switch, withRouter} from "react-router-dom";
 import ChoosenFilm from "./ChoosenFilm";
+
 class AllFilms extends Component {
     filmsService=new FilmsService()
     state={films:[]}

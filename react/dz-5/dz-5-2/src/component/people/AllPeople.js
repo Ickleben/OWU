@@ -1,14 +1,9 @@
 import React, {Component} from 'react';
 import People from "./People";
 import PeopleService from "../../service/people/PeopleService";
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    withRouter,
-    Link
-} from "react-router-dom";
+import {Route, Switch, withRouter} from "react-router-dom";
 import ChoosenPeople from "./ChoosenPeople";
+
 class AllPeople extends Component {
     peopleService=new PeopleService()
     state={people:[]}

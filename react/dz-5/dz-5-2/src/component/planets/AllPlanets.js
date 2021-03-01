@@ -1,14 +1,9 @@
 import React, {Component} from 'react';
 import PlanetsService from "../../service/planets/PlanetsService";
 import Planets from "./Planets";
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    withRouter,
-    Link
-} from "react-router-dom";
+import {Route, withRouter} from "react-router-dom";
 import ChoosenPlanets from "./ChoosenPlanets";
+
 class AllPlanets extends Component {
 planetsService=new PlanetsService()
     state={planets:[]}

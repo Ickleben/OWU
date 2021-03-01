@@ -4,8 +4,14 @@
     <list default="true" id="22fe0006-0053-4e80-beb6-de45083d9640" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../dz-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dz-4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dz-5-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz-5-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/films/AllFilms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/films/AllFilms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/people/AllPeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/people/AllPeople.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/planets/AllPlanets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/planets/AllPlanets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/species/AllSpecies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/species/AllSpecies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/starship/AllStarSip.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/starship/AllStarSip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/vehicles/AllVehicles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/vehicles/AllVehicles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react-4-practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../react-4-practice/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../practice-5" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -49,7 +55,8 @@
       <option name="presentableId" value="Default" />
       <updated>1607552225496</updated>
       <workItem from="1607552226629" duration="4334000" />
-      <workItem from="1607593684752" duration="11866000" />
+      <workItem from="1607593684752" duration="15974000" />
+      <workItem from="1607615510300" duration="1420000" />
     </task>
     <task id="LOCAL-00001" summary="dz-5-2">
       <created>1607607016089</created>
@@ -58,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607607016089</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dz-5-2 uprade">
+      <created>1607607614433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607607614433</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,6 +80,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dz-5-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="dz-5-2" />
+    <MESSAGE value="dz-5-2 uprade" />
+    <option name="LAST_COMMIT_MESSAGE" value="dz-5-2 uprade" />
   </component>
 </project>

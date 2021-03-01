@@ -10,13 +10,11 @@ class Comment extends Component {
 
     componentDidMount(e) {
         let {id} = this.props;
-
         if (id !=='' && id <= 101 && id >0) {
             this.commentService.getComments(id).then(value => this.setState({choosenComent: value})
             )
         }
     }
-
     render() {
 
         let {choosenComent} = this.state;
