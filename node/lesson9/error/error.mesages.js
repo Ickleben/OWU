@@ -41,5 +41,11 @@ module.exports = {
     },
     WRONG_EMAIL_ACTION: {
         en: 'Wrong email action'
+    },
+    NOT_VALID_FILE: {
+        en: 'Not valid file'
+    },
+    MORE_THAN_ONE: {
+        en: 'You must upload only one avatar'
     }
 };

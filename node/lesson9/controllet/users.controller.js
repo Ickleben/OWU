@@ -1,8 +1,4 @@
-const fs = require('fs-extra').promises;
-const path = require('path');
-const uuid = require('uuid').v1;
-
-const { mailService, userService } = require('../service');
+const { mailService, userService, fileService } = require('../service');
 const { confirmCodesEnum, errorCodesEnum, emailActionsEnum } = require('../constant');
 const { confirmmMessages } = require('../confirm');
 const { passHasher } = require('../helper');
@@ -36,19 +32,8 @@ module.exports = {
             const user = await userService.reg({ ...req.body, password: hashPass });
 
             if (avatar) {
-                const pathWithoutStat = path.join('user', `${user._id}`, 'photo');
-
-                const dirPhoto = path.join(process.cwd(), 'static', pathWithoutStat);
-
-                const fileExt = avatar.name.split('.').pop();
-
-                const PhotoName = `${uuid()}.${fileExt}`;
-                const uploadPhotoPath = path.join(dirPhoto, PhotoName);
-
-                await fs.mkdir(dirPhoto, { recursive: true });
-                await avatar.mv(uploadPhotoPath);
-
-                await userService.updateUser(user._id, { avatar: path.join(pathWithoutStat, PhotoName) });
+                const uploadPath = await fileService.BuildDir(avatar, avatar.name, 'photo', 'user', user._id);
+                await userService.updateUser(user._id, { avatar: uploadPath });
             }
 
             await mailService.SendEMail(email, emailActionsEnum.WELCOME, { userName: email });
